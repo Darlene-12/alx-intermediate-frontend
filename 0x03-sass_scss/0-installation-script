@@ -1,0 +1,21 @@
+# SASS Installation Steps
+
+1. Installed Node Version Manager (nvm) using the official script:
+   $ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+
+2. Exited the terminal using:
+   $ exit
+   Then reopened the terminal.
+
+3. Installed Node.js version 20.16.0 using nvm:
+   $ nvm install 20.16.0
+
+4. Verified installation:
+   $ node -v
+   $ npm -v
+
+5. Installed SASS version 3.7.4 globally using npm and sudo (to fix permissions issue):
+   $ sudo npm install -g sass@3.7.4
+
+6. Verified SASS installation:
+   $ sass --version
